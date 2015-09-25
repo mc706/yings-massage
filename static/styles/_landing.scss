@@ -1,0 +1,39 @@
+#landing-section {
+  color: $white;
+  position: relative;
+
+  background: $light-pink;
+  background: -moz-radial-gradient(center, ellipse cover,  $light-pink 0%, $pink 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,$light-pink), color-stop(100%,$pink));
+  background: -webkit-radial-gradient(center, ellipse cover,  $light-pink 0%,$pink 100%);
+  background: -o-radial-gradient(center, ellipse cover,  $light-pink 0%,$pink 100%);
+  background: -ms-radial-gradient(center, ellipse cover,  $light-pink 0%,$pink 100%);
+  background: radial-gradient(ellipse at center,  $light-pink 0%,$pink 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$light-pink', endColorstr='$pink',GradientType=1 );
+
+  padding: 40px;
+
+  #header {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+
+    font-size: 6em;
+  }
+  #landing-orchids {
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    height: 60%;
+    width: auto;
+  }
+  #contact {
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    font-size: 1.4em;
+  }
+
+
+
+}
